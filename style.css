@@ -23,12 +23,12 @@ body{
 }
 
 .meio{
-     padding: 170px 0px 0px 150px;
-    
+     padding: 156px 100px 0px 100px;
+     
 }
 
 .text{
-    
+    text-align: center;
     transform: translatey(0px);
     animation: float 5s ease-in-out infinite;
 }
@@ -89,7 +89,7 @@ header{
 
 .but{
     text-align: center;
-    margin-top: 15%;
+    margin-top: 90px;
 }
 
 .btn{
@@ -102,7 +102,7 @@ header{
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
-    position: relative;
+    
     overflow: hidden;
     font-family: 'Tektur';
     bottom: 80px;
@@ -144,12 +144,8 @@ header{
          height: 100vh;
           
      }
-     .meio{
-        padding: 50px 0px 0px 50px;
-     }
-     .btn{
-        right: 350px;
-     }
+     
+    
  }
  @media screen and (max-width: 955px){
     header{
@@ -162,14 +158,8 @@ header{
         height: 100vh;
          
     }
-    .meio{
-       padding: 50px 0px 0px 50px;
-    }
-    .btn{
-       right: 330px;
-      
-    }
 }
+
 @media screen and (max-width: 900px){
     header{
        font-size: 20px;
@@ -181,14 +171,8 @@ header{
         height: 100vh;
          
     }
-    .meio{
-       padding: 50px 0px 0px 50px;
-    }
-    .btn{
-       right: 310px;
-      
-    }
 }
+
 @media screen and (max-width: 834px){
     header{
        font-size: 20px;
@@ -200,14 +184,8 @@ header{
         height: 100vh;
          
     }
-    .meio{
-       padding: 50px 0px 0px 50px;
-    }
-    .btn{
-       right: 270px;
-      
-    }
 }
+
 @media screen and (max-width: 770px){
     header{
        font-size: 20px;
@@ -217,14 +195,6 @@ header{
         display: grid;
         width: 100%;
         height: 100vh;
-         
-    }
-    .meio{
-       padding: 50px 0px 0px 50px;
-    }
-    .btn{
-       right: 200px;
-      
     }
 
 }
@@ -240,16 +210,44 @@ header{
         height: 100vh;
          
     }
-    .meio{
-       padding: 50px 0px 0px 50px;
+}
+@media screen and (max-width: 639px){
+    
+    .text h1{
+        font-size: 18px;
+       line-height: 140%;
+    }
+    .text h2{
+        font-size: 10px;
+        
+    }
+    .but{
+        text-align: center;
+        
     }
     .btn{
-        bottom: 10%;
-       right: 210px;
-      
+        font-size: 14px;
     }
 }
 
+
+@media screen and (max-width: 595px){
+    header{
+       font-size: 12px;
+       height: 70px;
+       font-family: 'Tektur';
+
+    }
+    .text h1{
+        font-size: 15px;
+       line-height: 140%;
+    }
+    .text h2{
+        font-size: 10px;
+        
+    }
+    
+}
 @media screen and (max-width: 579px){
     header{
        font-size: 12px;
@@ -263,14 +261,24 @@ header{
         height: 100vh;
          
     }
-    .meio{
-       padding: 50px 0px 0px 50px;
+    
+}
+@media screen and (max-width: 529px){
+    header{
+       font-size: 12px;
+       height: 70px;
+       font-family: 'Tektur';
+
     }
-    .btn{
-        bottom: 10%;
-       right: 100px;
-      
+    .text h1{
+        font-size: 13px;
+       line-height: 140%;
     }
+    .text h2{
+        font-size: 10px;
+        
+    }
+    
 }
 @media screen and (max-width: 515px){
     header{
@@ -366,43 +374,42 @@ body{
         font-size: 9px;
     }
 }
-
-@media screen and (max-width: 322px){
+@media screen and (max-width: 321px){
     header{
-        font-size: 9px;
-        font-family: 'Tektur';
+       font-size: 10px;
+       height: 70px;
+       font-family: 'Tektur';
+       padding-right: 10px;
+       
+
     }
-    body{
-        background-position: 80%;
-    }
-    .tela{
-        display: grid;
-        width: 100%;
-        height: 100vh;
-         
-    }
-    .meio{
-       padding: 10px 0px 0px 20px;
-    }
-    .btn{
-        font-size: 15px;
-        bottom: 10%;
-       right: 3%;
+    .cabeçalho{
+        gap: 1rem;
+      font-family: 'Tektur';
       
     }
-    
+    .meio{
+        padding: 10px 10px 0px 20px;
+    }
     .text h1{
-        font-size: 13px;
-        padding-right: 5%;
+        font-size: 11px;
+        
+       line-height: 140%;
     }
     .text h2{
-        font-size: 9px;
+        font-size: 10px;
+        
     }
+    
 }
+
 
 @media screen and (max-width: 310px){
     body{
         background-position: 80%;
+    }
+    .cabeçalho{
+        font-family: 'Tektur';
     }
 
     }
@@ -414,6 +421,9 @@ body{
     }
     body{
         background-position: 80%;
+    }
+    .cabeçalho{
+        font-family: 'Tektur';
     }
 
     .tela{
@@ -440,28 +450,84 @@ body{
 }
 @media screen and (max-width: 261px){
     header{
-       font-size: 7px;
+       font-size: 9px;
        height: 25px;
-       font-family: 'Tektur';
+       
 
     }
+    .cabeçalho{
+        font-family: 'Tektur';
+    }
    
-    .tela{
-        
-        display: grid;
-        width: 100%;
-        height: 100vh;
-         
+    .text h1{
+        font-size: 10px;
     }
-    .meio{
-       padding: 20px 0px 0px 20px;
+    .text h2{
+        font-size: 9px;
     }
-    .btn{
-        font-size: 15px;
-        bottom: 10%;
-       right: 3%;
-      
+    body{
+        background-position: 80%;
     }
+}
+@media screen and (max-width: 242px){
+    header{
+       font-size: 7px;
+       height: 25px;
+       
+
+    }
+    .cabeçalho{
+        font-family: 'Tektur';
+    }
+   .btn{
+    font-size: 8px;
+   }
+    .text h1{
+        font-size: 10px;
+    }
+    .text h2{
+        font-size: 9px;
+    }
+    body{
+        background-position: 80%;
+    }
+}
+@media screen and (max-width: 202px){
+    header{
+       font-size: 6px;
+       height: 25px;
+       
+
+    }
+    .cabeçalho{
+        font-family: 'Tektur';
+    }
+   .btn{
+    font-size: 8px;
+   }
+    .text h1{
+        font-size: 10px;
+    }
+    .text h2{
+        font-size: 9px;
+    }
+    body{
+        background-position: 80%;
+    }
+}
+@media screen and (max-width: 193px){
+    header{
+       font-size: 5px;
+       height: 25px;
+       
+
+    }
+    .cabeçalho{
+        font-family: 'Tektur';
+    }
+   .btn{
+    font-size: 8px;
+   }
     .text h1{
         font-size: 10px;
     }

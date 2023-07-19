@@ -12,14 +12,14 @@
    }
 
 
-.tela{
+body{
     background-color: black;
     background-repeat: no-repeat;
     background-image: url(mee.jpg);
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+    background-position: right center;
+   
+    align-items: center;
 }
 
 .meio{
@@ -110,18 +110,18 @@ header{
 }
 
 .btn:hover {
-    color: #fff;
+    color: black;
 }
 
 .btn::before {
-    content: "";
+    content:"";
     position: absolute;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: white;
+    height: 0%;
+    background: green;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .btn::before {
@@ -130,11 +130,209 @@ header{
 }
 
 .btn:hover::before{
-    height: 100%;
+    height: 180%;
 }    
 
+@media screen and (max-width: 1000px){
+     header{
+        font-size: 20px;
+        height: 100px;
+     }
+     .tela{
+         display: grid;
+         width: 100%;
+         height: 100vh;
+          
+     }
+     .meio{
+        padding: 50px 0px 0px 50px;
+     }
+     .btn{
+        right: 350px;
+     }
+ }
+ @media screen and (max-width: 955px){
+    header{
+       font-size: 20px;
+       height: 100px;
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+       right: 330px;
+      
+    }
+}
+@media screen and (max-width: 900px){
+    header{
+       font-size: 20px;
+       height: 100px;
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+       right: 310px;
+      
+    }
+}
+@media screen and (max-width: 834px){
+    header{
+       font-size: 20px;
+       height: 100px;
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+       right: 270px;
+      
+    }
+}
+@media screen and (max-width: 770px){
+    header{
+       font-size: 20px;
+       height: 100px;
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+       right: 200px;
+      
+    }
+}
+@media screen and (max-width: 671px){
+    header{
+       font-size: 15px;
+       height: 90px;
+
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+        bottom: 10%;
+       right: 100px;
+      
+    }
+}
+@media screen and (max-width: 579px){
+    header{
+       font-size: 12px;
+       height: 70px;
+
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+        bottom: 10%;
+       right: 100px;
+      
+    }
+}
+@media screen and (max-width: 515px){
+    header{
+       font-size: 10px;
+       height: 50px;
+    }
+    body{
+        background-color: black;
+        background-repeat: no-repeat;
+        background-image: url(mee.jpg);
+        background-size: cover;
+        background-position: right center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        width: 100%;
+        height: 100vh;
+    }
+
+    .tela{
+
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 50px 0px 0px 50px;
+    }
+    .btn{
+        bottom: 10%;
+       right: 100px;
+      
+    }
+}
+@media screen and (max-width: 483px){
+    header{
+       font-size: 11px;
+       height: 50px;
+
+    }
+    .cabeçalho{
+        gap: 2rem;
+    }
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 20px 0px 0px 20px;
+    }
+    .btn{
+        font-size: 15px;
+        bottom: 10%;
+       right: 100px;
+      
+    }
+}
+
 @media screen and (max-width: 412px){
-   header{
+   
+    header{
     font-size: 11px;
     display: flex;
     justify-content: space-around;
@@ -143,8 +341,7 @@ header{
     max-width: 100%;
     align-items: center;
     padding-top: 10px;
-
-    
+  
    }
    .cabeçalho {
     display: flex;
@@ -158,23 +355,15 @@ header{
         background-image: url(mee.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: right;
         width: 100%;
         height: 100vh;
         
     }
-    .tela{
-        display: grid;
-        width: 100%;
-        height: 100vh;
-         
-    }
+   
     .meio{
-        padding: 10px 0px 0px 50px;
+        padding: 20px 0px 0px 10px;
         
-    }
-    .but{
-       
     }
     .btn{
         top: 50px;
@@ -182,4 +371,101 @@ header{
         font-size: 13px;
         padding: 10px 20px;
     }
+    .text h1{
+        font-size: 13px;
+    }
+    .text h2{
+        font-size: 9px;
+    }
 }
+
+@media screen and (max-width: 322px){
+    header{
+        font-size: 9px;
+    }
+
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 10px 0px 0px 20px;
+    }
+    .btn{
+        font-size: 15px;
+        bottom: 10%;
+       right: 3%;
+      
+    }
+    
+    .text h1{
+        font-size: 13px;
+        padding-right: 5%;
+    }
+    .text h2{
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 286px){
+    header{
+       font-size: 8px;
+
+    }
+
+    .tela{
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 20px 0px 0px 20px;
+    }
+    .btn{
+        font-size: 15px;
+        bottom: 10%;
+       right: 3%;
+      
+    }
+    .text h1{
+        font-size: 10px;
+    }
+    .text h2{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 261px){
+    header{
+       font-size: 7px;
+       height: 25px;
+
+    }
+   
+    .tela{
+        
+        display: grid;
+        width: 100%;
+        height: 100vh;
+         
+    }
+    .meio{
+       padding: 20px 0px 0px 20px;
+    }
+    .btn{
+        font-size: 15px;
+        bottom: 10%;
+       right: 3%;
+      
+    }
+    .text h1{
+        font-size: 10px;
+    }
+    .text h2{
+        font-size: 9px;
+    }
+}
+
